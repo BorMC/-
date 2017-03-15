@@ -6,12 +6,23 @@
         xmlns:local="clr-namespace:КДЗ_учет_постояльцев_в_гостин_бизнессе"
         mc:Ignorable="d"
         Title="Window1" Height="300" Width="600">
-    <Grid Margin="10,0,2,8">
+    <Grid Margin="10,0,2,8" RenderTransformOrigin="0.412,0.241">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="39*"/>
-            <ColumnDefinition Width="241*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="571*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="Pasrot_vydan" HorizontalAlignment="Left" Height="36" Margin="22,22,0,0" TextWrapping="Wrap" Text="Паспорт выдан" VerticalAlignment="Top" Width="98" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Pasrot_vydan" HorizontalAlignment="Left" Height="52" Margin="23,142,0,0" TextWrapping="Wrap" Text="Паспорт выдан" VerticalAlignment="Top" Width="181" Grid.Column="1"/>
+        <TextBox x:Name="Data_vyd" HorizontalAlignment="Left" Height="38" Margin="23,212,0,0" TextWrapping="Wrap" Text="Дата выдачи" VerticalAlignment="Top" Width="68" Grid.Column="1"/>
+        <TextBox x:Name="Kod_podrazd" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="110,212,0,0" TextWrapping="Wrap" Text="Код подразделения" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="Fami" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="23,22,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="181"/>
+        <TextBox x:Name="Imya" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="23,60,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="181"/>
+        <TextBox x:Name="Otchestvo" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="23,103,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="181"/>
+        <TextBox x:Name="Mesto_zhit" Grid.Column="1" HorizontalAlignment="Left" Height="68" Margin="250,60,0,0" TextWrapping="Wrap" Text="Место жительства по паспорту" VerticalAlignment="Top" Width="285"/>
+        <TextBox x:Name="Nomer_pasp" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="411,22,0,0" TextWrapping="Wrap" Text="Номер паспорта" VerticalAlignment="Top" Width="124"/>
+        <TextBox x:Name="Seriyz_pasp" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="250,22,0,0" TextWrapping="Wrap" Text="Серия паспорта" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="Mesto_rozhd" Grid.Column="1" HorizontalAlignment="Left" Height="52" Margin="250,142,0,0" TextWrapping="Wrap" Text="Место рождения" VerticalAlignment="Top" Width="285"/>
+        <TextBox x:Name="Data_rozhd" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="250,212,0,0" TextWrapping="Wrap" Text="Дата рождения" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="Pol" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="411,212,0,0" TextWrapping="Wrap" Text="Пол" VerticalAlignment="Top" Width="124"/>
 
     </Grid>
 </Window>

@@ -24,5 +24,12 @@ namespace КДЗ_учет_постояльцев_в_гостин_бизнесс�
         {
             InitializeComponent();
         }
+
+        private void Dobavlenie_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Window1 w1 = new Window1();
+            w1.Show();
+        }
     }
 }
