@@ -1,0 +1,9 @@
+﻿<Application x:Class="КДЗ_учет_постояльцев_в_гостин_бизнессе.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:КДЗ_учет_постояльцев_в_гостин_бизнессе"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
