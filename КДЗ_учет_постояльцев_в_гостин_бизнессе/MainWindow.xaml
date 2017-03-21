@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:КДЗ_учет_постояльцев_в_гостин_бизнессе"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="Dobavlenie" Content="Добавить" HorizontalAlignment="Left" Height="42" Margin="128,214,0,0" VerticalAlignment="Top" Width="240" FontSize="20" Click="Dobavlenie_Click"/>
- 
-        
+        Title="MainWindow" Height="450" Width="1159.5">
+    <Grid Margin="0,0,-136,0">
+        <Button x:Name="Dobavlenie" Content="Добавить" HorizontalAlignment="Left" Height="42" Margin="100,214,0,0" VerticalAlignment="Top" Width="240" FontSize="20" Click="Dobavlenie_Click"/>
+        <Button x:Name="Udalenie" Content="Удалить" HorizontalAlignment="Left" Height="42" Margin="438,214,0,0" VerticalAlignment="Top" Width="240" FontSize="20"/>
+        <Button x:Name="Redaktirovanie" Content="Редактировать" HorizontalAlignment="Left" Height="42" Margin="765,214,0,0" VerticalAlignment="Top" Width="240" FontSize="20"/>
+
+
     </Grid>
 </Window>
